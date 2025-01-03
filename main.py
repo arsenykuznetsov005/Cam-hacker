@@ -23,4 +23,3 @@ if countries.get('status') == 'success':
             for ip in ips:
                 file.write(f'http://{ip.get('src').split('/')[2]}\n')
     print(f'Список IP-адресов был сохранён в файл {user_choice}.txt')
-    # Hello from author
